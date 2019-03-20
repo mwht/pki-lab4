@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  Go to <a href="/GetNameServlet">servlet</a>
+  Go to <a href="GetNameServlet">servlet</a>
   </body>
 </html>
