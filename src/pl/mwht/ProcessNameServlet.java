@@ -18,6 +18,8 @@ public class ProcessNameServlet extends HttpServlet {
             String name = request.getParameter("name");
             if(name != null) {
                 out.println("<h1>Czesc " + name + "</h1>");
+            } else {
+                response.sendRedirect("GetNameServlet");
             }
         } finally {
             out.flush();
