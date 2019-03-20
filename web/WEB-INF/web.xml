@@ -20,4 +20,13 @@
         <servlet-name>ProcessNameServlet</servlet-name>
         <url-pattern>/ProcessNameServlet</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ChatServlet</servlet-name>
+        <servlet-class>pl.mwht.ChatServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChatServlet</servlet-name>
+        <url-pattern>/ChatServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
