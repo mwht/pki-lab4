@@ -11,4 +11,13 @@
         <servlet-name>GetNameServlet</servlet-name>
         <url-pattern>/GetNameServlet</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ProcessNameServlet</servlet-name>
+        <servlet-class>pl.mwht.ProcessNameServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProcessNameServlet</servlet-name>
+        <url-pattern>/ProcessNameServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
